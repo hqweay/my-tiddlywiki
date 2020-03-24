@@ -1,0 +1,9 @@
+created: 20200324141706255
+creator: hqweay
+modified: 20200324141707307
+modifier: hqweay
+tags: $:/tags/StartupAction/Browser
+title: $:/plugins/hoelzro/full-text-search/auto-index
+type: text/vnd.tiddlywiki
+
+<$fts-action-generate-index />

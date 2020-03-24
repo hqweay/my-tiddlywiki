@@ -1,6 +1,8 @@
 created: 20200323143926961
-modified: 20200324040641221
+creator: hqweay
+modified: 20200324140550957
+modifier: hqweay
 title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler
 type: text/vnd.tiddlywiki
 
-hide
+show
