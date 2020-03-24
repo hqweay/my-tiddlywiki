@@ -3,12 +3,23 @@
     "plugins": [
         "tiddlywiki/tiddlyweb",
         "tiddlywiki/filesystem",
-        "tiddlywiki/highlight"
+        "tiddlywiki/highlight",
+        "tiddlywiki/mobiledragdrop",
+        "tiddlywiki/markdown",
+        "tiddlywiki/highlight",
+        "tiddlywiki/dynaview",
+        "tiddlywiki/encryptTiddler"
     ],
     "themes": [
         "tiddlywiki/vanilla",
         "tiddlywiki/snowwhite"
     ],
+    "languages": [
+        "zh-Hans"
+    ],
+    "config": {
+		"retain-original-tiddler-path": true
+	},
     "build": {
         "index": [
             "--rendertiddler",
