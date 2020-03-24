@@ -1,0 +1,20 @@
+{
+  "name": "hqweay-wiki",
+  "version": "0.0.0",
+  "description": "hqweay's wiki",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "tiddlywiki --build index && mv output/index.html .",
+    "start": "tiddlywiki --listen port=1081 anon-username=hqweay"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hqweay/wiki.git"
+  },
+  "author": "hqweay <hqweay@gmail.com> (https://leay.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "tiddlywiki": "^5.1.21"
+  }
+}

@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "10"
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  target_branch: wiki-page
+  token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
