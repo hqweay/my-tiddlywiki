@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "if [ -e wiki.html ]; then cp -rf wiki.html index.html; else tiddlywiki --build index && mv output/index.html .; fi;",
+    "build": "if [ -e wiki.html ]; then cp -rf wiki.html index.html; else tiddlywiki --build index && mv output/index.html . && cp index.html wiki.html; fi;",
     "start": "tiddlywiki --listen port=1081 anon-username=hqweay",
     "test": "npm run build"
   },
