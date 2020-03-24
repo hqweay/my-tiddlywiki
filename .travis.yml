@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "10"
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: pages
+  # 保留构建后的文件
+  skip_cleanup: true
+  target_branch: gh-pages
+  token: $GITHUB_TOKEN
+  # 每次部署会新增一个提交记录再推送，而不是使用 git push --force。
+  keep_history: true
+  on:
+    branch: master
