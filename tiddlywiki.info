@@ -5,10 +5,8 @@
         "tiddlywiki/filesystem",
         "tiddlywiki/highlight",
         "tiddlywiki/mobiledragdrop",
-        "tiddlywiki/markdown",
         "tiddlywiki/highlight",
-        "tiddlywiki/dynaview",
-        "tiddlywiki/encryptTiddler"
+        "tiddlywiki/dynaview"
     ],
     "themes": [
         "tiddlywiki/vanilla",

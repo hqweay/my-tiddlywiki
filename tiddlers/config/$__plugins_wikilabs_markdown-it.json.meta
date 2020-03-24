@@ -1,0 +1,11 @@
+author: pmario
+core-version: >=5.0.0
+created: 20200324102708551
+dependents: 
+description: Markdown parser (Commonmark compatible)
+list: readme usage license
+modified: 20200324102708551
+plugin-type: plugin
+title: $:/plugins/wikilabs/markdown-it
+type: application/json
+version: 9.1.0
